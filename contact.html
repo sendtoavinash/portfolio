@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Avinash Upadhyay</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-form">
+            <h2>Contact Me</h2>
+            <form action="https://formspree.io/f/{your_form_id}" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="_replyto" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        <section class="social-links">
+            <h2>Connect with Me</h2>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/sendtoavinash">LinkedIn</a></li>
+                <li><a href="https://github.com/sendtoavinash">GitHub</a></li>
+            </ul>
+        </section>
+        <section class="resume-download">
+            <h2>Download Resume</h2>
+            <a href="path_to_resume.pdf" download>Download Resume (PDF)</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Avinash Upadhyay. All rights reserved.</p>
+    </footer>
+</body>
+</html>
